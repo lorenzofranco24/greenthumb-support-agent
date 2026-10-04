@@ -1,0 +1,598 @@
+[
+  {
+    "order_id": 1021,
+    "customer_name": "Marco B.",
+    "city": "Brescia",
+    "status": "consegnato",
+    "order_date": "2026-09-18",
+    "estimated_delivery": "2026-09-22",
+    "delivered_on": "2026-09-22",
+    "carrier": "BRT",
+    "tracking_code": "BRT1021IT",
+    "items": [
+      {
+        "sku": "PIA-ROS-005",
+        "name": "Rosa inglese Gertrude Jekyll (vaso 5 L)",
+        "qty": 1,
+        "unit_price_eur": 24.9
+      },
+      {
+        "sku": "CON-UNI-005",
+        "name": "Concime organico universale 5 kg",
+        "qty": 1,
+        "unit_price_eur": 14.5
+      }
+    ],
+    "subtotal_eur": 39.4,
+    "shipping_eur": 5.9,
+    "total_eur": 45.3,
+    "notes": null
+  },
+  {
+    "order_id": 1025,
+    "customer_name": "Giulia R.",
+    "city": "Torino",
+    "status": "consegnato",
+    "order_date": "2026-09-20",
+    "estimated_delivery": "2026-09-24",
+    "delivered_on": "2026-09-24",
+    "carrier": "BRT",
+    "tracking_code": "BRT1025IT",
+    "items": [
+      {
+        "sku": "ATT-FOR-001",
+        "name": "Forbici da potatura bypass",
+        "qty": 1,
+        "unit_price_eur": 22.0
+      }
+    ],
+    "subtotal_eur": 22.0,
+    "shipping_eur": 5.9,
+    "total_eur": 27.9,
+    "notes": null
+  },
+  {
+    "order_id": 1027,
+    "customer_name": "Paolo F.",
+    "city": "Bologna",
+    "status": "reso_in_corso",
+    "order_date": "2026-09-21",
+    "estimated_delivery": "2026-09-25",
+    "delivered_on": "2026-09-25",
+    "carrier": "BRT",
+    "tracking_code": "BRT1027IT",
+    "items": [
+      {
+        "sku": "IRR-KIT-020",
+        "name": "Kit irrigazione a goccia con timer",
+        "qty": 1,
+        "unit_price_eur": 49.9
+      }
+    ],
+    "subtotal_eur": 49.9,
+    "shipping_eur": 5.9,
+    "total_eur": 55.8,
+    "notes": "Reso richiesto il 2026-09-30: centralina difettosa. In attesa del ricevimento del pacco."
+  },
+  {
+    "order_id": 1030,
+    "customer_name": "Elena M.",
+    "city": "Verona",
+    "status": "consegnato",
+    "order_date": "2026-09-23",
+    "estimated_delivery": "2026-09-28",
+    "delivered_on": "2026-09-28",
+    "carrier": "BRT",
+    "tracking_code": "BRT1030IT",
+    "items": [
+      {
+        "sku": "PIA-LAV-002",
+        "name": "Lavanda Hidcote (vaso 2 L)",
+        "qty": 3,
+        "unit_price_eur": 8.9
+      },
+      {
+        "sku": "TER-UNI-050",
+        "name": "Terriccio universale 50 L",
+        "qty": 2,
+        "unit_price_eur": 9.9
+      }
+    ],
+    "subtotal_eur": 46.5,
+    "shipping_eur": 5.9,
+    "total_eur": 52.4,
+    "notes": null
+  },
+  {
+    "order_id": 1031,
+    "customer_name": "Davide L.",
+    "city": "Milano",
+    "status": "annullato",
+    "order_date": "2026-09-24",
+    "estimated_delivery": null,
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": null,
+    "items": [
+      {
+        "sku": "PIA-OLI-010",
+        "name": "Olivo Leccino (vaso 10 L)",
+        "qty": 1,
+        "unit_price_eur": 39.0
+      }
+    ],
+    "subtotal_eur": 39.0,
+    "shipping_eur": 5.9,
+    "total_eur": 44.9,
+    "notes": "Annullato su richiesta del cliente il 2026-09-24. Rimborso emesso."
+  },
+  {
+    "order_id": 1033,
+    "customer_name": "Sara T.",
+    "city": "Padova",
+    "status": "consegnato",
+    "order_date": "2026-09-25",
+    "estimated_delivery": "2026-09-29",
+    "delivered_on": "2026-09-29",
+    "carrier": "BRT",
+    "tracking_code": "BRT1033IT",
+    "items": [
+      {
+        "sku": "SEM-PRA-001",
+        "name": "Semi per prato rustico 1 kg",
+        "qty": 2,
+        "unit_price_eur": 15.9
+      }
+    ],
+    "subtotal_eur": 31.8,
+    "shipping_eur": 5.9,
+    "total_eur": 37.7,
+    "notes": null
+  },
+  {
+    "order_id": 1034,
+    "customer_name": "Luca P.",
+    "city": "Cagliari",
+    "status": "in_ritardo",
+    "order_date": "2026-09-25",
+    "estimated_delivery": "2026-10-06",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": "BRT1034IT",
+    "items": [
+      {
+        "sku": "PIA-ROS-005",
+        "name": "Rosa inglese Gertrude Jekyll (vaso 5 L)",
+        "qty": 1,
+        "unit_price_eur": 24.9
+      },
+      {
+        "sku": "VAS-TER-030",
+        "name": "Vaso in terracotta 30 cm",
+        "qty": 1,
+        "unit_price_eur": 16.5
+      }
+    ],
+    "subtotal_eur": 41.4,
+    "shipping_eur": 5.9,
+    "total_eur": 47.3,
+    "notes": "Ritardo del corriere. Consegna originaria stimata 2026-10-01, nuova stima 2026-10-06."
+  },
+  {
+    "order_id": 1035,
+    "customer_name": "Anna C.",
+    "city": "Firenze",
+    "status": "consegnato",
+    "order_date": "2026-09-26",
+    "estimated_delivery": "2026-09-30",
+    "delivered_on": "2026-09-30",
+    "carrier": "BRT",
+    "tracking_code": "BRT1035IT",
+    "items": [
+      {
+        "sku": "SEM-BAS-002",
+        "name": "Semi di basilico genovese",
+        "qty": 5,
+        "unit_price_eur": 2.4
+      },
+      {
+        "sku": "VAS-TER-030",
+        "name": "Vaso in terracotta 30 cm",
+        "qty": 2,
+        "unit_price_eur": 16.5
+      }
+    ],
+    "subtotal_eur": 45.0,
+    "shipping_eur": 5.9,
+    "total_eur": 50.9,
+    "notes": null
+  },
+  {
+    "order_id": 1036,
+    "customer_name": "Roberto G.",
+    "city": "Genova",
+    "status": "in_consegna",
+    "order_date": "2026-09-28",
+    "estimated_delivery": "2026-10-04",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": "BRT1036IT",
+    "items": [
+      {
+        "sku": "BUL-NAR-030",
+        "name": "Bulbi di narciso Tête-à-Tête (30)",
+        "qty": 2,
+        "unit_price_eur": 9.9
+      },
+      {
+        "sku": "BUL-CRO-040",
+        "name": "Bulbi di crocus vernus mix (40)",
+        "qty": 1,
+        "unit_price_eur": 7.5
+      }
+    ],
+    "subtotal_eur": 27.3,
+    "shipping_eur": 5.9,
+    "total_eur": 33.2,
+    "notes": null
+  },
+  {
+    "order_id": 1037,
+    "customer_name": "Chiara V.",
+    "city": "Napoli",
+    "status": "spedito",
+    "order_date": "2026-09-30",
+    "estimated_delivery": "2026-10-06",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": "BRT1037IT",
+    "items": [
+      {
+        "sku": "PIA-OLI-010",
+        "name": "Olivo Leccino (vaso 10 L)",
+        "qty": 1,
+        "unit_price_eur": 39.0
+      },
+      {
+        "sku": "VAS-TER-030",
+        "name": "Vaso in terracotta 30 cm",
+        "qty": 1,
+        "unit_price_eur": 16.5
+      }
+    ],
+    "subtotal_eur": 55.5,
+    "shipping_eur": 5.9,
+    "total_eur": 61.4,
+    "notes": null
+  },
+  {
+    "order_id": 1038,
+    "customer_name": "Matteo S.",
+    "city": "Trento",
+    "status": "in_preparazione",
+    "order_date": "2026-10-01",
+    "estimated_delivery": "2026-10-06",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": null,
+    "items": [
+      {
+        "sku": "PIA-ROS-005",
+        "name": "Rosa inglese Gertrude Jekyll (vaso 5 L)",
+        "qty": 2,
+        "unit_price_eur": 24.9
+      }
+    ],
+    "subtotal_eur": 49.8,
+    "shipping_eur": 5.9,
+    "total_eur": 55.7,
+    "notes": null
+  },
+  {
+    "order_id": 1039,
+    "customer_name": "Francesca D.",
+    "city": "Bergamo",
+    "status": "spedito",
+    "order_date": "2026-10-01",
+    "estimated_delivery": "2026-10-05",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": "BRT1039IT",
+    "items": [
+      {
+        "sku": "PIA-LAV-002",
+        "name": "Lavanda Hidcote (vaso 2 L)",
+        "qty": 2,
+        "unit_price_eur": 8.9
+      }
+    ],
+    "subtotal_eur": 17.8,
+    "shipping_eur": 5.9,
+    "total_eur": 23.7,
+    "notes": null
+  },
+  {
+    "order_id": 1040,
+    "customer_name": "Andrea N.",
+    "city": "Roma",
+    "status": "in_preparazione",
+    "order_date": "2026-10-02",
+    "estimated_delivery": "2026-10-07",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": null,
+    "items": [
+      {
+        "sku": "TER-UNI-050",
+        "name": "Terriccio universale 50 L",
+        "qty": 3,
+        "unit_price_eur": 9.9
+      },
+      {
+        "sku": "CON-UNI-005",
+        "name": "Concime organico universale 5 kg",
+        "qty": 1,
+        "unit_price_eur": 14.5
+      }
+    ],
+    "subtotal_eur": 44.2,
+    "shipping_eur": 5.9,
+    "total_eur": 50.1,
+    "notes": null
+  },
+  {
+    "order_id": 1042,
+    "customer_name": "Lorenzo A.",
+    "city": "Brescia",
+    "status": "spedito",
+    "order_date": "2026-10-02",
+    "estimated_delivery": "2026-10-05",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": "BRT1042IT",
+    "items": [
+      {
+        "sku": "BUL-TUL-025",
+        "name": "Bulbi di tulipano Darwin Ibrido mix (25)",
+        "qty": 2,
+        "unit_price_eur": 12.9
+      },
+      {
+        "sku": "CON-BUL-001",
+        "name": "Concime per bulbose 1 kg",
+        "qty": 1,
+        "unit_price_eur": 8.9
+      }
+    ],
+    "subtotal_eur": 34.7,
+    "shipping_eur": 5.9,
+    "total_eur": 40.6,
+    "notes": null
+  },
+  {
+    "order_id": 1043,
+    "customer_name": "Silvia K.",
+    "city": "Udine",
+    "status": "in_preparazione",
+    "order_date": "2026-10-03",
+    "estimated_delivery": "2026-10-08",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": null,
+    "items": [
+      {
+        "sku": "BUL-CRO-040",
+        "name": "Bulbi di crocus vernus mix (40)",
+        "qty": 2,
+        "unit_price_eur": 7.5
+      },
+      {
+        "sku": "BUL-NAR-030",
+        "name": "Bulbi di narciso Tête-à-Tête (30)",
+        "qty": 1,
+        "unit_price_eur": 9.9
+      },
+      {
+        "sku": "BUL-TUL-025",
+        "name": "Bulbi di tulipano Darwin Ibrido mix (25)",
+        "qty": 1,
+        "unit_price_eur": 12.9
+      }
+    ],
+    "subtotal_eur": 37.8,
+    "shipping_eur": 5.9,
+    "total_eur": 43.7,
+    "notes": null
+  },
+  {
+    "order_id": 1044,
+    "customer_name": "Fabio Z.",
+    "city": "Perugia",
+    "status": "in_preparazione",
+    "order_date": "2026-10-03",
+    "estimated_delivery": "2026-10-08",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": null,
+    "items": [
+      {
+        "sku": "IRR-KIT-020",
+        "name": "Kit irrigazione a goccia con timer",
+        "qty": 1,
+        "unit_price_eur": 49.9
+      },
+      {
+        "sku": "ATT-FOR-001",
+        "name": "Forbici da potatura bypass",
+        "qty": 1,
+        "unit_price_eur": 22.0
+      }
+    ],
+    "subtotal_eur": 71.9,
+    "shipping_eur": 0.0,
+    "total_eur": 71.9,
+    "notes": null
+  },
+  {
+    "order_id": 1045,
+    "customer_name": "Valentina H.",
+    "city": "Bari",
+    "status": "in_preparazione",
+    "order_date": "2026-10-04",
+    "estimated_delivery": "2026-10-09",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": null,
+    "items": [
+      {
+        "sku": "PIA-OLI-010",
+        "name": "Olivo Leccino (vaso 10 L)",
+        "qty": 2,
+        "unit_price_eur": 39.0
+      },
+      {
+        "sku": "CON-UNI-005",
+        "name": "Concime organico universale 5 kg",
+        "qty": 2,
+        "unit_price_eur": 14.5
+      }
+    ],
+    "subtotal_eur": 107.0,
+    "shipping_eur": 0.0,
+    "total_eur": 107.0,
+    "notes": null
+  },
+  {
+    "order_id": 1046,
+    "customer_name": "Stefano O.",
+    "city": "Parma",
+    "status": "consegnato",
+    "order_date": "2026-09-22",
+    "estimated_delivery": "2026-09-26",
+    "delivered_on": "2026-09-26",
+    "carrier": "BRT",
+    "tracking_code": "BRT1046IT",
+    "items": [
+      {
+        "sku": "BUL-TUL-025",
+        "name": "Bulbi di tulipano Darwin Ibrido mix (25)",
+        "qty": 4,
+        "unit_price_eur": 12.9
+      }
+    ],
+    "subtotal_eur": 51.6,
+    "shipping_eur": 5.9,
+    "total_eur": 57.5,
+    "notes": "Il cliente ha segnalato 2 confezioni danneggiate il 2026-09-27. Pratica per danno da trasporto aperta, in attesa di operatore."
+  },
+  {
+    "order_id": 1047,
+    "customer_name": "Ilaria W.",
+    "city": "Como",
+    "status": "consegnato",
+    "order_date": "2026-09-27",
+    "estimated_delivery": "2026-10-01",
+    "delivered_on": "2026-10-01",
+    "carrier": "BRT",
+    "tracking_code": "BRT1047IT",
+    "items": [
+      {
+        "sku": "PIA-LAV-002",
+        "name": "Lavanda Hidcote (vaso 2 L)",
+        "qty": 1,
+        "unit_price_eur": 8.9
+      }
+    ],
+    "subtotal_eur": 8.9,
+    "shipping_eur": 5.9,
+    "total_eur": 14.8,
+    "notes": null
+  },
+  {
+    "order_id": 1048,
+    "customer_name": "Gianni E.",
+    "city": "Lecce",
+    "status": "consegnato",
+    "order_date": "2026-09-29",
+    "estimated_delivery": "2026-10-03",
+    "delivered_on": "2026-10-02",
+    "carrier": "BRT",
+    "tracking_code": "BRT1048IT",
+    "items": [
+      {
+        "sku": "ATT-FOR-001",
+        "name": "Forbici da potatura bypass",
+        "qty": 1,
+        "unit_price_eur": 22.0
+      },
+      {
+        "sku": "PIA-ROS-005",
+        "name": "Rosa inglese Gertrude Jekyll (vaso 5 L)",
+        "qty": 1,
+        "unit_price_eur": 24.9
+      }
+    ],
+    "subtotal_eur": 46.9,
+    "shipping_eur": 5.9,
+    "total_eur": 52.8,
+    "notes": null
+  },
+  {
+    "order_id": 1049,
+    "customer_name": "Monica Q.",
+    "city": "Torino",
+    "status": "spedito",
+    "order_date": "2026-10-03",
+    "estimated_delivery": "2026-10-06",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": "BRT1049IT",
+    "items": [
+      {
+        "sku": "SEM-PRA-001",
+        "name": "Semi per prato rustico 1 kg",
+        "qty": 1,
+        "unit_price_eur": 15.9
+      },
+      {
+        "sku": "SEM-BAS-002",
+        "name": "Semi di basilico genovese",
+        "qty": 2,
+        "unit_price_eur": 2.4
+      }
+    ],
+    "subtotal_eur": 20.7,
+    "shipping_eur": 5.9,
+    "total_eur": 26.6,
+    "notes": null
+  },
+  {
+    "order_id": 1050,
+    "customer_name": "Nicola U.",
+    "city": "Brescia",
+    "status": "in_consegna",
+    "order_date": "2026-10-01",
+    "estimated_delivery": "2026-10-04",
+    "delivered_on": null,
+    "carrier": "BRT",
+    "tracking_code": "BRT1050IT",
+    "items": [
+      {
+        "sku": "VAS-TER-030",
+        "name": "Vaso in terracotta 30 cm",
+        "qty": 4,
+        "unit_price_eur": 16.5
+      },
+      {
+        "sku": "TER-UNI-050",
+        "name": "Terriccio universale 50 L",
+        "qty": 2,
+        "unit_price_eur": 9.9
+      }
+    ],
+    "subtotal_eur": 85.8,
+    "shipping_eur": 0.0,
+    "total_eur": 85.8,
+    "notes": null
+  }
+]
