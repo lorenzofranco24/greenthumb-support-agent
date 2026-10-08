@@ -1,6 +1,6 @@
 [
   {
-    "order_id": 1021,
+    "order_id": "GTPO1021",
     "customer_name": "Marco B.",
     "city": "Brescia",
     "status": "consegnato",
@@ -29,7 +29,7 @@
     "notes": null
   },
   {
-    "order_id": 1025,
+    "order_id": "GTPO1025",
     "customer_name": "Giulia R.",
     "city": "Torino",
     "status": "consegnato",
@@ -52,7 +52,7 @@
     "notes": null
   },
   {
-    "order_id": 1027,
+    "order_id": "GTPO1027",
     "customer_name": "Paolo F.",
     "city": "Bologna",
     "status": "reso_in_corso",
@@ -75,7 +75,7 @@
     "notes": "Reso richiesto il 2026-09-30: centralina difettosa. In attesa del ricevimento del pacco."
   },
   {
-    "order_id": 1030,
+    "order_id": "GTPO1030",
     "customer_name": "Elena M.",
     "city": "Verona",
     "status": "consegnato",
@@ -104,7 +104,7 @@
     "notes": null
   },
   {
-    "order_id": 1031,
+    "order_id": "GTPO1031",
     "customer_name": "Davide L.",
     "city": "Milano",
     "status": "annullato",
@@ -127,7 +127,7 @@
     "notes": "Annullato su richiesta del cliente il 2026-09-24. Rimborso emesso."
   },
   {
-    "order_id": 1033,
+    "order_id": "GTPO1033",
     "customer_name": "Sara T.",
     "city": "Padova",
     "status": "consegnato",
@@ -150,7 +150,7 @@
     "notes": null
   },
   {
-    "order_id": 1034,
+    "order_id": "GTPO1034",
     "customer_name": "Luca P.",
     "city": "Cagliari",
     "status": "in_ritardo",
@@ -179,7 +179,7 @@
     "notes": "Ritardo del corriere. Consegna originaria stimata 2026-10-01, nuova stima 2026-10-06."
   },
   {
-    "order_id": 1035,
+    "order_id": "GTPO1035",
     "customer_name": "Anna C.",
     "city": "Firenze",
     "status": "consegnato",
@@ -208,7 +208,7 @@
     "notes": null
   },
   {
-    "order_id": 1036,
+    "order_id": "GTPO1036",
     "customer_name": "Roberto G.",
     "city": "Genova",
     "status": "in_consegna",
@@ -237,7 +237,7 @@
     "notes": null
   },
   {
-    "order_id": 1037,
+    "order_id": "GTPO1037",
     "customer_name": "Chiara V.",
     "city": "Napoli",
     "status": "spedito",
@@ -266,7 +266,7 @@
     "notes": null
   },
   {
-    "order_id": 1038,
+    "order_id": "GTPO1038",
     "customer_name": "Matteo S.",
     "city": "Trento",
     "status": "in_preparazione",
@@ -289,7 +289,7 @@
     "notes": null
   },
   {
-    "order_id": 1039,
+    "order_id": "GTPO1039",
     "customer_name": "Francesca D.",
     "city": "Bergamo",
     "status": "spedito",
@@ -312,7 +312,7 @@
     "notes": null
   },
   {
-    "order_id": 1040,
+    "order_id": "GTPO1040",
     "customer_name": "Andrea N.",
     "city": "Roma",
     "status": "in_preparazione",
@@ -341,7 +341,7 @@
     "notes": null
   },
   {
-    "order_id": 1042,
+    "order_id": "GTPO1042",
     "customer_name": "Lorenzo A.",
     "city": "Brescia",
     "status": "spedito",
@@ -370,7 +370,7 @@
     "notes": null
   },
   {
-    "order_id": 1043,
+    "order_id": "GTPO1043",
     "customer_name": "Silvia K.",
     "city": "Udine",
     "status": "in_preparazione",
@@ -405,7 +405,7 @@
     "notes": null
   },
   {
-    "order_id": 1044,
+    "order_id": "GTPO1044",
     "customer_name": "Fabio Z.",
     "city": "Perugia",
     "status": "in_preparazione",
@@ -434,7 +434,7 @@
     "notes": null
   },
   {
-    "order_id": 1045,
+    "order_id": "GTPO1045",
     "customer_name": "Valentina H.",
     "city": "Bari",
     "status": "in_preparazione",
@@ -463,7 +463,7 @@
     "notes": null
   },
   {
-    "order_id": 1046,
+    "order_id": "GTPO1046",
     "customer_name": "Stefano O.",
     "city": "Parma",
     "status": "consegnato",
@@ -486,7 +486,7 @@
     "notes": "Il cliente ha segnalato 2 confezioni danneggiate il 2026-09-27. Pratica per danno da trasporto aperta, in attesa di operatore."
   },
   {
-    "order_id": 1047,
+    "order_id": "GTPO1047",
     "customer_name": "Ilaria W.",
     "city": "Como",
     "status": "consegnato",
@@ -509,7 +509,7 @@
     "notes": null
   },
   {
-    "order_id": 1048,
+    "order_id": "GTPO1048",
     "customer_name": "Gianni E.",
     "city": "Lecce",
     "status": "consegnato",
@@ -538,7 +538,7 @@
     "notes": null
   },
   {
-    "order_id": 1049,
+    "order_id": "GTPO1049",
     "customer_name": "Monica Q.",
     "city": "Torino",
     "status": "spedito",
@@ -567,7 +567,7 @@
     "notes": null
   },
   {
-    "order_id": 1050,
+    "order_id": "GTPO1050",
     "customer_name": "Nicola U.",
     "city": "Brescia",
     "status": "in_consegna",
