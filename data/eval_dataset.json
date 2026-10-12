@@ -1,0 +1,421 @@
+[
+  {
+    "id": "kb_01",
+    "category": "kb",
+    "turns": [
+      "Quanto costa la spedizione se il mio ordine è di 40 euro?"
+    ],
+    "reference_answer": "Per un ordine di 40 € la spedizione costa 5,90 €. È gratuita solo per ordini da 60 € in su.",
+    "expected_tools": [
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "policies/spedizioni.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Fatto numerico con soglia."
+  },
+  {
+    "id": "kb_02",
+    "category": "kb",
+    "turns": [
+      "Posso restituire un paio di forbici da potatura comprate due settimane fa?"
+    ],
+    "reference_answer": "Sì, entro 30 giorni dalla consegna, se il prodotto non è stato utilizzato ed è nella confezione originale. Le spese di reso sono a carico del cliente, tranne in caso di prodotto difettoso o errato. Il rimborso arriva entro 7 giorni lavorativi dal ricevimento del reso.",
+    "expected_tools": [
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "policies/resi.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Rischio di confusione con la policy dei resi per piante vive."
+  },
+  {
+    "id": "kb_03",
+    "category": "kb",
+    "turns": [
+      "Fino a che temperatura resiste l'olivo Leccino?"
+    ],
+    "reference_answer": "L'olivo Leccino resiste fino a -8 °C. Con temperature più basse va protetto con tessuto non tessuto o ricoverato in un luogo luminoso.",
+    "expected_tools": [
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "products/olivo_leccino.md",
+      "guides/olivo_in_vaso.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Due documenti validi: basta uno."
+  },
+  {
+    "id": "kb_04",
+    "category": "kb",
+    "turns": [
+      "Quando devo potare la lavanda e di quanto?"
+    ],
+    "reference_answer": "La potatura si fa subito dopo la fioritura, tra agosto e settembre, accorciando i rami di un terzo senza tagliare il legno vecchio.",
+    "expected_tools": [
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "guides/cura_lavanda.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Caso in cui il modello ha aggiunto frasi non presenti nella guida (faithfulness)."
+  },
+  {
+    "id": "kb_05",
+    "category": "kb",
+    "turns": [
+      "Come combatto gli afidi sulle mie rose?"
+    ],
+    "reference_answer": "Spruzza una soluzione di sapone molle al 2% ogni 5 giorni.",
+    "expected_tools": [
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "guides/parassiti_comuni.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Retrieval su sinonimo implicito (afidi nella guida parassiti)."
+  },
+  {
+    "id": "kb_06",
+    "category": "kb",
+    "turns": [
+      "Il kit di irrigazione a goccia include le batterie?"
+    ],
+    "reference_answer": "No: la centralina funziona con 2 batterie AA, che non sono incluse e vanno acquistate a parte.",
+    "expected_tools": [
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "products/kit_irrigazione_goccia.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Risposta negativa: rischio di risposta 'sì' per compiacenza."
+  },
+  {
+    "id": "ord_01",
+    "category": "order",
+    "turns": [
+      "Dov'è il mio ordine GTPO1039?"
+    ],
+    "reference_answer": "L'ordine GTPO1039 è stato spedito. La consegna è stimata per il 5 ottobre 2026 (domani). Tracking: BRT1039IT.",
+    "expected_tools": [
+      "get_order_status"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Data relativa: richiede la data di riferimento nel prompt."
+  },
+  {
+    "id": "ord_02",
+    "category": "order",
+    "turns": [
+      "Ho annullato l'ordine GTPO1031: mi avete rimborsato?"
+    ],
+    "reference_answer": "L'ordine GTPO1031 risulta annullato su richiesta del cliente il 24 settembre 2026 e il rimborso è stato emesso.",
+    "expected_tools": [
+      "get_order_status"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "L'informazione sta nelle note dell'ordine."
+  },
+  {
+    "id": "mt_01",
+    "category": "multi_tool",
+    "turns": [
+      "Quando arriva l'ordine GTPO1042? Posso piantare adesso i bulbi di tulipano?"
+    ],
+    "reference_answer": "L'ordine GTPO1042 è stato spedito e arriva domani, 5 ottobre 2026. I tulipani si piantano in autunno, da ottobre a novembre: sì, si può piantare adesso.",
+    "expected_tools": [
+      "get_order_status",
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "guides/bulbi_autunnali.md",
+      "products/bulbi_tulipano_darwin.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Esempio della traccia."
+  },
+  {
+    "id": "mt_02",
+    "category": "multi_tool",
+    "turns": [
+      "Ho ordinato due rose con l'ordine GTPO1038: quando arrivano e quante ore di sole servono?"
+    ],
+    "reference_answer": "L'ordine GTPO1038 è in preparazione e la consegna è stimata per il 6 ottobre 2026. Le rose richiedono almeno 6 ore di sole al giorno.",
+    "expected_tools": [
+      "get_order_status",
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [
+      "products/rosa_gertrude_jekyll.md",
+      "guides/coltivazione_rose.md"
+    ],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Il tracking non è ancora disponibile: l'agente non deve inventarlo."
+  },
+  {
+    "id": "esc_01",
+    "category": "escalation",
+    "turns": [
+      "Il mio ordine GTPO1046 è arrivato con due confezioni danneggiate, cosa devo fare?"
+    ],
+    "reference_answer": "Per l'ordine GTPO1046 risulta già aperta una pratica per danno da trasporto, in attesa di un operatore che prenderà in carico il caso.",
+    "expected_tools": [],
+    "optional_tools": [
+      "get_order_status",
+      "escalate_to_human"
+    ],
+    "forbidden_tools": [],
+    "expected_sources": null,
+    "expected_needs_human": true,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Il modello può leggere la pratica già aperta oppure aprire un ticket: entrambi accettabili."
+  },
+  {
+    "id": "esc_02",
+    "category": "escalation",
+    "turns": [
+      "Il mio ordine GTPO1034 è in ritardo di giorni e voglio il rimborso."
+    ],
+    "reference_answer": "L'ordine GTPO1034 è in ritardo per un problema del corriere: la consegna prevista il 1 ottobre è slittata al 6 ottobre. La richiesta di rimborso va gestita da un operatore.",
+    "expected_tools": [
+      "get_order_status"
+    ],
+    "optional_tools": [
+      "escalate_to_human",
+      "search_catalog"
+    ],
+    "forbidden_tools": [],
+    "expected_sources": null,
+    "expected_needs_human": true,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Si chiede il rimborso per evitare ambiguità sulla soglia dei 3 giorni (3 al 4/10, 5 sulla nuova stima)."
+  },
+  {
+    "id": "esc_03",
+    "category": "escalation",
+    "turns": [
+      "Se non mi rimborsate subito l'ordine GTPO1021 vi faccio causa."
+    ],
+    "reference_answer": "Il caso viene passato a un operatore umano, che prenderà in carico la richiesta; è stato aperto un ticket.",
+    "expected_tools": [
+      "escalate_to_human"
+    ],
+    "optional_tools": [
+      "get_order_status",
+      "search_catalog"
+    ],
+    "forbidden_tools": [],
+    "expected_sources": null,
+    "expected_needs_human": true,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Minaccia legale: escalation dalla policy."
+  },
+  {
+    "id": "nf_01",
+    "category": "not_found",
+    "turns": [
+      "Dov'è il mio ordine GTPO9999?"
+    ],
+    "reference_answer": "L'ordine GTPO9999 non risulta nei nostri sistemi: il caso viene passato a un operatore per un controllo.",
+    "expected_tools": [
+      "get_order_status"
+    ],
+    "optional_tools": [
+      "escalate_to_human"
+    ],
+    "forbidden_tools": [],
+    "expected_sources": [],
+    "expected_needs_human": true,
+    "expected_confidence": null,
+    "notes": "Policy: ordine non trovato dopo verifica va a un operatore."
+  },
+  {
+    "id": "oos_01",
+    "category": "out_of_scope",
+    "turns": [
+      "Come si pota un bonsai?"
+    ],
+    "reference_answer": "La knowledge base non contiene informazioni sulla potatura del bonsai: l'assistente deve dichiararlo senza inventare una risposta.",
+    "expected_tools": [],
+    "optional_tools": [
+      "search_catalog"
+    ],
+    "forbidden_tools": [],
+    "expected_sources": [],
+    "expected_needs_human": null,
+    "expected_confidence": [
+      "low",
+      "medium"
+    ],
+    "notes": "Il retrieval dà score 0.53, sotto la soglia di 0.55 per un soffio."
+  },
+  {
+    "id": "oos_02",
+    "category": "out_of_scope",
+    "turns": [
+      "Quanto costa spedire un ordine in Spagna?"
+    ],
+    "reference_answer": "La knowledge base non riporta tariffe per l'estero: le spedizioni descritte riguardano Italia continentale, isole e Calabria. L'assistente deve dichiararlo senza inventare tariffe.",
+    "expected_tools": [
+      "search_catalog"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": null,
+    "expected_needs_human": null,
+    "expected_confidence": [
+      "low",
+      "medium"
+    ],
+    "notes": "Trappola di faithfulness: il retrieval trova la policy spedizioni, ma non copre l'estero."
+  },
+  {
+    "id": "mem_01",
+    "category": "multi_turn",
+    "turns": [
+      "Ciao, dov'è il mio ordine GTPO1042?",
+      "Quando si piantano i tulipani?",
+      "Quanto costa la spedizione?",
+      "Come si pota la lavanda?",
+      "Scusa, e il mio ordine quando arriva?"
+    ],
+    "reference_answer": "L'ordine GTPO1042 è stato spedito e la consegna è stimata per il 5 ottobre 2026 (domani).",
+    "expected_tools": [
+      "get_order_status"
+    ],
+    "optional_tools": [],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": [],
+    "expected_needs_human": false,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "ID implicito all'ultimo turno, dopo il riassunto: l'agente non deve chiedere l'ID."
+  },
+  {
+    "id": "mem_02",
+    "category": "multi_turn",
+    "turns": [
+      "Il mio ordine GTPO1046 è arrivato con due confezioni danneggiate.",
+      "Quando mi contattate?"
+    ],
+    "reference_answer": "Il caso è già in carico agli operatori, disponibili dal lunedì al venerdì, 9:00-18:00. Fuori orario la presa in carico avviene entro le 10:00 del giorno lavorativo successivo, cioè lunedì 5 ottobre 2026.",
+    "expected_tools": [],
+    "optional_tools": [
+      "search_catalog",
+      "get_order_status"
+    ],
+    "forbidden_tools": [
+      "escalate_to_human"
+    ],
+    "expected_sources": null,
+    "expected_needs_human": true,
+    "expected_confidence": [
+      "high",
+      "medium"
+    ],
+    "notes": "Al secondo turno non deve aprire un nuovo ticket."
+  }
+]
